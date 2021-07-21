@@ -41,9 +41,9 @@ npm start
 
 ### Registration
 - Register a new user with [http://localhost:3000/register]
-- Enter email as _pratik@velotio.com_ to register yourself as a User.
+- Enter email as _raj@gmail.com_ to register yourself as a User.
 - Only an Admin can make other users as Admin. 
-- So to make _pratik@velotio.com_ as Admin go to [http://127.0.0.1:8000/docs#/] and hit the endpoint `/run-after-pratik-register-to-make-first-admin` which  will convert _pratik@velotio.com_ to an Admin (Superuser).
+- So to make _raj@gmail.com_ as Admin go to [http://127.0.0.1:8000/docs#/] and hit the endpoint `/run-after-raj-register-to-make-first-admin` which  will convert _raj@gmail.com_ to an Admin (Superuser).
 - Now using this Admin we can PATCH other users as Admin
 
 ### Login

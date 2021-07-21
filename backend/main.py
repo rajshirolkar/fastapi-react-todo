@@ -59,12 +59,12 @@ async def shutdown_db_client():
     app.mongodb_client.close()
 
 
-@app.get('/run-after-pratik-register-to-make-first-admin')
+@app.get('/run-after-raj-register-to-make-first-admin')
 async def generate_first_admin():
 
-    email = 'pratik@velotio.com'
+    email = 'raj@gmail.com'
     admin_in_db = await app.db["users"].update_one({"email": email}, {"$set": {"is_superuser": True}})
-    return {'success': 'Pratik is now first admin'}
+    return {'success': 'Raj is now first admin'}
 
 
 if __name__ == "__main__":
